@@ -1,0 +1,22 @@
+What is an IoT gateway?
+An internet of things (IoT) gateway is a physical device or software program that serves as the connection point between the cloud and controllers, sensors and intelligent devices. All data moving between IoT devices and the cloud passes through an IoT gateway, which can be either a dedicated hardware appliance or software program. An IoT gateway might also be referred to as an intelligent gateway or a control tier.
+
+What does an IoT gateway do?
+An IoT gateway acts as a network router, routing data between IoT devices and the cloud. Early on, most gateway devices only sent traffic in one direction: from the IoT devices to the cloud. Now, it's common for a gateway device to handle both inbound and outbound traffic. Outbound traffic streams are used for sending IoT data to the cloud, while inbound traffic is used for device management tasks, such as updating device firmware.
+
+Some IoT gateways do more than just route traffic. A gateway device can sometimes be used to preprocess that data locally at the edge before sending it to the cloud. In doing so, the device might deduplicate, summarize or aggregate data as a way of reducing the volume of data that must be forwarded to the cloud. This can have a big effect on response times and network transmission costs.
+
+Another benefit of an IoT gateway is that it can provide additional security for the IoT network and the data it transports. Although they're improving, IoT devices have often been found to be insecure. In 2020, for example, a vulnerability known as Ripple20 was discovered in the TCP/IP library that's used by hundreds of millions of IoT devices, making those devices vulnerable to attack.
+How does an IoT gateway work?
+A simple IoT gateway functions similarly to a Wi-Fi router. An IoT system connects to the gateway using a Wi-Fi connection and then the gateway routes the IoT device data to the cloud. More often, though, IoT gateways are far more complex.
+
+One reason why an IoT gateway tends to be more complex than a Wi-Fi router is that there are several different protocols used by IoT devices. Some of these protocols include Z-Wave, BACnet, Bluetooth Low Energy and Zigbee. As such, an IoT gateway might need to support a variety of protocols to service all the IoT devices in an organization.
+
+In addition to supporting these protocols, the gateway must be able to route each type of IoT traffic to the appropriate destination. Data from a collection of industrial sensors might need to be sent to a database in the AWS cloud, whereas data from building security sensors might need to be directed to a SaaS vendor that operates a cloud-based security portal.
+
+Another reason why IoT gateways can be more complex than Wi-Fi routers is because IoT gateways might need to locally cache data in case of an internet outage or in case the gateway is flooded with more data than it can handle.
+
+Additionally, IoT gateways often support failover clustering or the ability to scale out to support increasingly large workloads.
+
+IoT gateways and edge computing
+Some IoT devices produce vast quantities of data. This can be a problem if an organization has a significant number of devices in its IoT ecosystem and tries to send the data from all those devices to the cloud. The IoT devices could potentially deplete the organization's available internet bandwidth, while also incurring large cloud storage costs.
